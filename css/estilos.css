@@ -1,26 +1,72 @@
-#contenedor{
-    width: 968px;
+#cont{
+ 
+   
 }
+
 #menu{
-    height: 25px;
-    width: 968px;
-    background-color: blue;
-}
+   
+   background-color:blue;
+   height: 40px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
 
-#slider{
-    height: 359px;
-    width: 968px;
-    background-color: chartreuse;
 }
-
+.comida{
+  height: 200px;
+  width: 200px;
+  border-radius: 20%;
+}
 #cuerpo{
+    
+    background-color:gold;
     height: 700px;
-    background-color: chocolate;
+    
 }
 
 #footer{
+    
+    background-color:deeppink;
     height: 50px;
-    width: 968px;
-    background-color: darkviolet;
-}
+    display: flex;
+   align-items: center;
+   justify-content: center;
 
+}
+#img1 {
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+   
+  }
+#img2 {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    
+  }
+#img3 {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 40%;
+    left: 80%;
+    
+  }
+    
